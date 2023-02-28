@@ -1,0 +1,86 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 5000px;
+}
+.nav {
+    padding: 25px;
+    background-color: #ffac41;
+}
+#leftside {
+    float: left; 
+    font-size: 25px;
+    position: absolute;
+    top: 7px;
+    left: 60px;
+    color: white;
+}
+#rightside {
+    float: right;
+    font-size: 25px;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+#rightside a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.Dash {
+    padding: 30px;
+    width:200px;
+    height: 500px;
+    border: 2px solid #ffac41;
+    float: inherit; 
+    border-radius: 5px;
+    margin: 30px;
+}
+.Budget {
+    padding: 30px;
+    width: 200px;
+    height: 500px; 
+    border: 2px solid #ffac41;
+    float: inherit;
+    margin: 30px;
+    border-radius: 5px;
+}
+#box {
+    float: left;
+    margin: 200px 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.Check {
+    padding: 30px;
+    width: 200px;
+    height: 500px; 
+    border: 2px solid #ffac41;
+    float: inherit;
+    margin: 30px;
+    border-radius: 5px; 
+}
+.Money {
+    padding: 30px;
+    width: 200px;
+    height: 500px; 
+    border: 2px solid #ffac41;
+    float: inherit;
+    margin: 30px;
+    border-radius: 5px; 
+}
+.More {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #ffac41;
+    color: white;
+    position: inherit;
+}
